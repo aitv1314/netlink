@@ -1,9 +1,11 @@
 内核
 	make
+
 	insmod netlinkKo.ko
 
 用户
 	gcc netlinkUsr.c -o netlinkUsr
+
 	./netlinkUsr
 
 其他
